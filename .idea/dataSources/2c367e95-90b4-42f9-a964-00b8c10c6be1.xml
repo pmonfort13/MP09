@@ -158,7 +158,7 @@
 |root||root|localhost|grant option|G
 performance_schema|schema||mysql.session|localhost|SELECT|G
 sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
-      <ServerVersion>8.0.34</ServerVersion>
+      <ServerVersion>8.0.35</ServerVersion>
     </root>
     <collation id="2" parent="1" name="armscii8_general_ci">
       <Charset>armscii8</Charset>
@@ -1079,8 +1079,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="294" parent="1" name="phplaraveldevs">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-10-30.19:47:06</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-10-30.17:47:06</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-06.19:48:46</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-06.17:48:46</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="295" parent="1" name="dadesEmpleats">
@@ -1139,7 +1139,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>3</Position>
     </column>
     <column id="307" parent="303" name="completed">
-      <DasType>bit(1)|0s</DasType>
+      <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
