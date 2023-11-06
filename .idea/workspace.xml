@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="792e4a31-50ff-4638-8d31-d838fc0c099d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/Database/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/Database/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1/storage_v2/_src_/schema/phplaraveldevs.v5iv6w.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1/storage_v2/_src_/schema/phplaraveldevs.v5iv6w.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Database/Database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,8 @@
       <workItem from="1698678148421" duration="7000" />
       <workItem from="1698682294233" duration="3368000" />
       <workItem from="1698690039844" duration="772000" />
-      <workItem from="1699292874496" duration="1813000" />
+      <workItem from="1699292874496" duration="1845000" />
+      <workItem from="1699295242579" duration="385000" />
     </task>
     <servers />
   </component>
