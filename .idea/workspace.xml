@@ -5,8 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="792e4a31-50ff-4638-8d31-d838fc0c099d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/errors/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/html_header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/nav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1/storage_v2/_src_/schema/phplaraveldevs.v5iv6w.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2c367e95-90b4-42f9-a964-00b8c10c6be1/storage_v2/_src_/schema/phplaraveldevs.v5iv6w.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/Database/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Database/Connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova.php" beforeDir="false" afterPath="$PROJECT_DIR$/prova.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +86,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;2c367e95-90b4-42f9-a964-00b8c10c6be1&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;schema/&amp;quot;phplaraveldevs&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;2c367e95-90b4-42f9-a964-00b8c10c6be1&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;schema/&amp;quot;phplaraveldevs&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/alumne/MP09&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -70,6 +103,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -88,7 +123,15 @@
       <workItem from="1698682294233" duration="3368000" />
       <workItem from="1698690039844" duration="772000" />
       <workItem from="1699292874496" duration="1845000" />
-      <workItem from="1699295242579" duration="385000" />
+      <workItem from="1699295242579" duration="538000" />
+      <workItem from="1699456142222" duration="37000" />
+      <workItem from="1699892013260" duration="6405000" />
+      <workItem from="1700496668790" duration="2117000" />
+      <workItem from="1700588323833" duration="8000" />
+      <workItem from="1700669716711" duration="12000" />
+      <workItem from="1701101577440" duration="6547000" />
+      <workItem from="1701706201246" duration="2738000" />
+      <workItem from="1701711643275" duration="123000" />
     </task>
     <servers />
   </component>

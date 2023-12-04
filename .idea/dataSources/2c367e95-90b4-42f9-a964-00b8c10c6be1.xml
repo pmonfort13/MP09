@@ -1079,8 +1079,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="294" parent="1" name="phplaraveldevs">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-11-06.19:48:46</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-06.17:48:46</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-27.20:27:32</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-27.18:27:32</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="295" parent="1" name="dadesEmpleats">
@@ -1122,36 +1122,100 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="304" parent="303" name="id">
+    <table id="304" parent="294" name="users">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="305" parent="294" name="users_1">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="306" parent="303" name="id">
+      <AutoIncrement>5</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="307" parent="303" name="name">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="308" parent="303" name="description">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="309" parent="303" name="completed">
+      <DasType>tinyint(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="310" parent="303" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="311" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="312" parent="304" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="305" parent="303" name="name">
+    <column id="313" parent="304" name="nom">
       <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="306" parent="303" name="description">
+    <column id="314" parent="304" name="cognom">
       <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="307" parent="303" name="completed">
-      <DasType>tinyint(1)|0s</DasType>
+    <column id="315" parent="304" name="email">
+      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="308" parent="303" name="PRIMARY">
+    <column id="316" parent="304" name="password">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <index id="317" parent="304" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="309" parent="303" name="PRIMARY">
+    <key id="318" parent="304" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
+    <column id="319" parent="305" name="id">
+      <DasType>int|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="320" parent="305" name="nom">
+      <DasType>text|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="321" parent="305" name="cognom">
+      <DasType>text|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="322" parent="305" name="email">
+      <DasType>text|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="323" parent="305" name="password">
+      <DasType>text|0s</DasType>
+      <Position>5</Position>
+    </column>
   </database-model>
 </dataSource>

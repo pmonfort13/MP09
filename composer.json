@@ -1,5 +1,22 @@
 {
-    "require": {
-        "vlucas/phpdotenv": "^5.5"
+  "name": "jordivega/prova",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": [
+      "framework/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "jordivega",
+      "email": "jordivega@iesebre.com"
     }
+  ],
+  "require": {
+      "vlucas/phpdotenv": "^5.5",
+      "ext-pdo": "*"
+  }
 }
